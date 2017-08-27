@@ -2,7 +2,7 @@
 
 By Aadarsh Shetty
 
-See Demo at <http://jokecamp.github.io/epl-fantasy-geek/#/players>
+See Demo at <https://aadarsh-shetty.github.io/EnglishPremierLeagueGeekFantasy/app/#/players>
 
 ## Download Fantasy JSON Data
 
