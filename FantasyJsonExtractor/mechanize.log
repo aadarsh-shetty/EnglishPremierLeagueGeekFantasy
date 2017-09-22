@@ -8278,3 +8278,1386 @@ D, [2017-09-21T13:05:44.077035 #2847] DEBUG -- : response-header: x-timer => S15
 D, [2017-09-21T13:05:44.077057 #2847] DEBUG -- : response-header: vary => Accept-Encoding
 D, [2017-09-21T13:05:44.077129 #2847] DEBUG -- : Read 380 bytes (380 total)
 D, [2017-09-21T13:05:44.077235 #2847] DEBUG -- : gzip response
+I, [2017-09-23T03:22:34.976311 #14649]  INFO -- : Net::HTTP::Get: /
+D, [2017-09-23T03:22:34.979829 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:34.980207 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:34.980247 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:34.980264 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:34.980278 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:34.980291 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:36.856294 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:36.856472 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:36.856553 #14649] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2017-09-23T03:22:36.856583 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:36.856627 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:36.856695 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:36.856772 #14649] DEBUG -- : response-header: set-cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; expires=Fri, 21-Sep-2018 21:52:36 GMT; Max-Age=31449600; Path=/, sessionid="eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ"; httponly; Path=/, affiliate=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, one-click-join=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+D, [2017-09-23T03:22:36.856858 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:36.856890 #14649] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-09-23T03:22:36.856915 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:36.856960 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:36 GMT
+D, [2017-09-23T03:22:36.856981 #14649] DEBUG -- : response-header: via => 1.1 varnish
+D, [2017-09-23T03:22:36.857002 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:36.857023 #14649] DEBUG -- : response-header: x-served-by => cache-hkg17931-HKG
+D, [2017-09-23T03:22:36.857046 #14649] DEBUG -- : response-header: x-cache => MISS
+D, [2017-09-23T03:22:36.857069 #14649] DEBUG -- : response-header: x-cache-hits => 0
+D, [2017-09-23T03:22:36.857093 #14649] DEBUG -- : response-header: x-timer => S1506117156.558587,VS0,VE1266
+D, [2017-09-23T03:22:36.857117 #14649] DEBUG -- : response-header: vary => Cookie, Accept-Encoding
+D, [2017-09-23T03:22:36.857365 #14649] DEBUG -- : Read 1880 bytes (1880 total)
+D, [2017-09-23T03:22:36.857436 #14649] DEBUG -- : Read 165 bytes (2045 total)
+D, [2017-09-23T03:22:36.857480 #14649] DEBUG -- : Read 1381 bytes (3426 total)
+D, [2017-09-23T03:22:37.161661 #14649] DEBUG -- : Read 2759 bytes (6185 total)
+D, [2017-09-23T03:22:37.161826 #14649] DEBUG -- : Read 1384 bytes (7569 total)
+D, [2017-09-23T03:22:37.161976 #14649] DEBUG -- : Read 1075 bytes (8644 total)
+D, [2017-09-23T03:22:37.163809 #14649] DEBUG -- : gzip response
+D, [2017-09-23T03:22:37.172701 #14649] DEBUG -- : saved cookie: csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj
+D, [2017-09-23T03:22:37.172894 #14649] DEBUG -- : saved cookie: sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:37.173111 #14649] DEBUG -- : saved cookie: affiliate=
+D, [2017-09-23T03:22:37.173317 #14649] DEBUG -- : saved cookie: one-click-join=
+I, [2017-09-23T03:22:37.187005 #14649]  INFO -- : form encoding: utf-8
+D, [2017-09-23T03:22:37.187215 #14649] DEBUG -- : query: "csrfmiddlewaretoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj&login=&password=&app=plfpl-web&redirect_uri=https%3A%2F%2Ffantasy.premierleague.com%2Fa%2Flogin&ismjs-username=user%40gmail.com&ismjs-password=password"
+I, [2017-09-23T03:22:37.187511 #14649]  INFO -- : Net::HTTP::Post: /accounts/login/
+D, [2017-09-23T03:22:37.187539 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:37.187559 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:37.187574 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:37.187587 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:37.187599 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:37.187611 #14649] DEBUG -- : request-header: host => users.premierleague.com
+D, [2017-09-23T03:22:37.187628 #14649] DEBUG -- : request-header: referer => https://fantasy.premierleague.com/
+D, [2017-09-23T03:22:37.187641 #14649] DEBUG -- : request-header: content-type => application/x-www-form-urlencoded
+D, [2017-09-23T03:22:37.187655 #14649] DEBUG -- : request-header: content-length => 204
+I, [2017-09-23T03:22:39.458933 #14649]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2017-09-23T03:22:39.458995 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:39.459026 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:39 GMT
+D, [2017-09-23T03:22:39.459044 #14649] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2017-09-23T03:22:39.459058 #14649] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-09-23T03:22:39.459071 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:39.459085 #14649] DEBUG -- : response-header: vary => Cookie
+D, [2017-09-23T03:22:39.459098 #14649] DEBUG -- : response-header: x-frame-options => SAMEORIGIN
+D, [2017-09-23T03:22:39.459111 #14649] DEBUG -- : response-header: location => https://fantasy.premierleague.com/a/login?state=fail&reason=credentials
+I, [2017-09-23T03:22:39.459533 #14649]  INFO -- : follow redirect to: https://fantasy.premierleague.com/a/login?state=fail&reason=credentials
+I, [2017-09-23T03:22:39.460153 #14649]  INFO -- : Net::HTTP::Get: /a/login?state=fail&reason=credentials
+D, [2017-09-23T03:22:39.460193 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:39.460212 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:39.460227 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:39.460242 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:39.460255 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:39.460268 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:39.460282 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+D, [2017-09-23T03:22:39.460299 #14649] DEBUG -- : request-header: referer => https://fantasy.premierleague.com/
+I, [2017-09-23T03:22:39.901849 #14649]  INFO -- : status: Net::HTTPFound 1.1 302 FOUND
+D, [2017-09-23T03:22:39.901911 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:39.901929 #14649] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2017-09-23T03:22:39.901965 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:39.901987 #14649] DEBUG -- : response-header: location => https://fantasy.premierleague.com/?fail
+D, [2017-09-23T03:22:39.902031 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:39.902058 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:39.902070 #14649] DEBUG -- : response-header: set-cookie => affiliate=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, one-click-join=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+D, [2017-09-23T03:22:39.902089 #14649] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-09-23T03:22:39.902101 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:39.902112 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:39 GMT
+D, [2017-09-23T03:22:39.902123 #14649] DEBUG -- : response-header: via => 1.1 varnish
+D, [2017-09-23T03:22:39.902134 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:39.902145 #14649] DEBUG -- : response-header: x-served-by => cache-hkg17931-HKG
+D, [2017-09-23T03:22:39.902155 #14649] DEBUG -- : response-header: x-cache => MISS
+D, [2017-09-23T03:22:39.902166 #14649] DEBUG -- : response-header: x-cache-hits => 0
+D, [2017-09-23T03:22:39.902179 #14649] DEBUG -- : response-header: x-timer => S1506117160.523536,VS0,VE338
+D, [2017-09-23T03:22:39.902205 #14649] DEBUG -- : response-header: vary => Cookie
+D, [2017-09-23T03:22:39.902634 #14649] DEBUG -- : saved cookie: affiliate=
+D, [2017-09-23T03:22:39.902888 #14649] DEBUG -- : saved cookie: one-click-join=
+I, [2017-09-23T03:22:39.902950 #14649]  INFO -- : follow redirect to: https://fantasy.premierleague.com/?fail
+I, [2017-09-23T03:22:39.903473 #14649]  INFO -- : Net::HTTP::Get: /?fail
+D, [2017-09-23T03:22:39.903525 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:39.903545 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:39.903559 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:39.903571 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:39.903583 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:39.903613 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:39.903657 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+D, [2017-09-23T03:22:39.903709 #14649] DEBUG -- : request-header: referer => https://fantasy.premierleague.com/
+I, [2017-09-23T03:22:40.315197 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:40.315283 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:40.315323 #14649] DEBUG -- : response-header: content-type => text/html; charset=utf-8
+D, [2017-09-23T03:22:40.315344 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:40.315361 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:40.315379 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:40.315401 #14649] DEBUG -- : response-header: set-cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; expires=Fri, 21-Sep-2018 21:52:40 GMT; Max-Age=31449600; Path=/, affiliate=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, one-click-join=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+D, [2017-09-23T03:22:40.315419 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:40.315436 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:40.315452 #14649] DEBUG -- : response-header: fastly-debug-digest => a5d4ad7d59f79f7ffdb6d941a4365fbdf85f55eeb014af92cccc19ec92a535fd
+D, [2017-09-23T03:22:40.315469 #14649] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-09-23T03:22:40.315485 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:40.315503 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:40 GMT
+D, [2017-09-23T03:22:40.315520 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:40.315536 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:40.315553 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1137-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:40.315571 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:40.315612 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:40.315628 #14649] DEBUG -- : response-header: x-timer => S1506117160.966542,VS0,VE294
+D, [2017-09-23T03:22:40.315645 #14649] DEBUG -- : response-header: vary => Cookie, Accept-Encoding
+D, [2017-09-23T03:22:40.315708 #14649] DEBUG -- : Read 0 bytes (0 total)
+D, [2017-09-23T03:22:40.325631 #14649] DEBUG -- : Read 2759 bytes (2759 total)
+D, [2017-09-23T03:22:40.391372 #14649] DEBUG -- : Read 2759 bytes (5518 total)
+D, [2017-09-23T03:22:40.391499 #14649] DEBUG -- : Read 777 bytes (6295 total)
+D, [2017-09-23T03:22:40.391717 #14649] DEBUG -- : Read 2399 bytes (8694 total)
+D, [2017-09-23T03:22:40.391873 #14649] DEBUG -- : gzip response
+D, [2017-09-23T03:22:40.395679 #14649] DEBUG -- : saved cookie: csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj
+D, [2017-09-23T03:22:40.395881 #14649] DEBUG -- : saved cookie: affiliate=
+D, [2017-09-23T03:22:40.396047 #14649] DEBUG -- : saved cookie: one-click-join=
+I, [2017-09-23T03:22:40.396442 #14649]  INFO -- : Net::HTTP::Get: /drf/bootstrap-static
+D, [2017-09-23T03:22:40.396483 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:40.396502 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:40.396517 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:40.396536 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:40.396563 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:40.396578 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:40.396591 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:40.521705 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:40.521766 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:40.521786 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:40.521801 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:40.521815 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:40.521828 #14649] DEBUG -- : response-header: cache-control => stale-while-revalidate=5, max-age=300
+D, [2017-09-23T03:22:40.521841 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:40.521854 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:40.521867 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:40.521880 #14649] DEBUG -- : response-header: fastly-debug-digest => 414fd19eb7d404d78dd6d64c218545ee4b341ed3518a17ece620bc45db7337c0
+D, [2017-09-23T03:22:40.521893 #14649] DEBUG -- : response-header: content-length => 56238
+D, [2017-09-23T03:22:40.521916 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:40.521929 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:40 GMT
+D, [2017-09-23T03:22:40.521942 #14649] DEBUG -- : response-header: age => 289
+D, [2017-09-23T03:22:40.521955 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:40.521968 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1133-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:40.521981 #14649] DEBUG -- : response-header: x-cache => HIT, HIT
+D, [2017-09-23T03:22:40.521993 #14649] DEBUG -- : response-header: x-cache-hits => 1, 7
+D, [2017-09-23T03:22:40.522007 #14649] DEBUG -- : response-header: x-timer => S1506117160.460035,VS0,VE0
+D, [2017-09-23T03:22:40.522019 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:40.522104 #14649] DEBUG -- : Read 2148 bytes (2148 total)
+D, [2017-09-23T03:22:40.526518 #14649] DEBUG -- : Read 2759 bytes (4907 total)
+D, [2017-09-23T03:22:40.587296 #14649] DEBUG -- : Read 2759 bytes (7666 total)
+D, [2017-09-23T03:22:40.606352 #14649] DEBUG -- : Read 2759 bytes (10425 total)
+D, [2017-09-23T03:22:40.611156 #14649] DEBUG -- : Read 2759 bytes (13184 total)
+D, [2017-09-23T03:22:40.611444 #14649] DEBUG -- : Read 2589 bytes (15773 total)
+D, [2017-09-23T03:22:40.613080 #14649] DEBUG -- : Read 2759 bytes (18532 total)
+D, [2017-09-23T03:22:40.636984 #14649] DEBUG -- : Read 2759 bytes (21291 total)
+D, [2017-09-23T03:22:40.637195 #14649] DEBUG -- : Read 2759 bytes (24050 total)
+D, [2017-09-23T03:22:40.637384 #14649] DEBUG -- : Read 2759 bytes (26809 total)
+D, [2017-09-23T03:22:40.641444 #14649] DEBUG -- : Read 2759 bytes (29568 total)
+D, [2017-09-23T03:22:40.641785 #14649] DEBUG -- : Read 2589 bytes (32157 total)
+D, [2017-09-23T03:22:40.740715 #14649] DEBUG -- : Read 16384 bytes (48541 total)
+D, [2017-09-23T03:22:40.801013 #14649] DEBUG -- : Read 7697 bytes (56238 total)
+D, [2017-09-23T03:22:40.801166 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:40.830773 #14649]  INFO -- : Net::HTTP::Get: /drf/bootstrap-dynamic
+D, [2017-09-23T03:22:40.830864 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:40.830882 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:40.830897 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:40.830911 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:40.830923 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:40.830935 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:40.830947 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:41.258286 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:41.258352 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:41.258373 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:41.258389 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:41.258408 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:41.258423 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:41.258466 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:41.258488 #14649] DEBUG -- : response-header: set-cookie => affiliate=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/, one-click-join=; expires=Thu, 01-Jan-1970 00:00:00 GMT; Max-Age=0; Path=/
+D, [2017-09-23T03:22:41.258504 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:41.258520 #14649] DEBUG -- : response-header: transfer-encoding => chunked
+D, [2017-09-23T03:22:41.258541 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:41.258558 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:41 GMT
+D, [2017-09-23T03:22:41.258575 #14649] DEBUG -- : response-header: via => 1.1 varnish
+D, [2017-09-23T03:22:41.258588 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:41.258601 #14649] DEBUG -- : response-header: x-served-by => cache-hkg17931-HKG
+D, [2017-09-23T03:22:41.258615 #14649] DEBUG -- : response-header: x-cache => MISS
+D, [2017-09-23T03:22:41.258627 #14649] DEBUG -- : response-header: x-cache-hits => 0
+D, [2017-09-23T03:22:41.258659 #14649] DEBUG -- : response-header: x-timer => S1506117161.893862,VS0,VE335
+D, [2017-09-23T03:22:41.258672 #14649] DEBUG -- : response-header: vary => Cookie, Accept-Encoding
+D, [2017-09-23T03:22:41.258731 #14649] DEBUG -- : Read 54 bytes (54 total)
+D, [2017-09-23T03:22:41.258797 #14649] DEBUG -- : gzip response
+D, [2017-09-23T03:22:41.259222 #14649] DEBUG -- : saved cookie: affiliate=
+D, [2017-09-23T03:22:41.259431 #14649] DEBUG -- : saved cookie: one-click-join=
+I, [2017-09-23T03:22:41.262415 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=1
+D, [2017-09-23T03:22:41.262480 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:41.262499 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:41.262515 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:41.262530 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:41.262544 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:41.262557 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:41.262571 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:41.625647 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:41.625736 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:41.625759 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:41.625774 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:41.625788 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:41.625802 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:41.625816 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:41.625829 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:41.625842 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:41.625858 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:41.625890 #14649] DEBUG -- : response-header: fastly-debug-digest => 7379396789baad7877e54ef8517a136a881754dddcffc034e26c83ffc9252b79
+D, [2017-09-23T03:22:41.625904 #14649] DEBUG -- : response-header: content-length => 2197
+D, [2017-09-23T03:22:41.625917 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:41.625930 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:41 GMT
+D, [2017-09-23T03:22:41.625943 #14649] DEBUG -- : response-header: age => 71
+D, [2017-09-23T03:22:41.625955 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:41.625968 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1151-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:41.625981 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:41.625993 #14649] DEBUG -- : response-header: x-cache-hits => 2, 0
+D, [2017-09-23T03:22:41.626009 #14649] DEBUG -- : response-header: x-timer => S1506117161.325156,VS0,VE270
+D, [2017-09-23T03:22:41.626022 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:41.626102 #14649] DEBUG -- : Read 2112 bytes (2112 total)
+D, [2017-09-23T03:22:41.626152 #14649] DEBUG -- : Read 85 bytes (2197 total)
+D, [2017-09-23T03:22:41.626213 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:41.631333 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=2
+D, [2017-09-23T03:22:41.631413 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:41.631445 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:41.631480 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:41.631508 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:41.631537 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:41.631554 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:41.631590 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:42.057684 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:42.057749 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:42.057770 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:42.057785 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:42.057798 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:42.057811 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:42.057824 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:42.057837 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:42.057849 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:42.057862 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:42.057898 #14649] DEBUG -- : response-header: fastly-debug-digest => 1245f68e4454c8a7c84fa3204dd04497f88e2f125fdc75bb4944b2f095c24303
+D, [2017-09-23T03:22:42.057922 #14649] DEBUG -- : response-header: content-length => 2158
+D, [2017-09-23T03:22:42.057935 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:42.057948 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:41 GMT
+D, [2017-09-23T03:22:42.057961 #14649] DEBUG -- : response-header: age => 115
+D, [2017-09-23T03:22:42.057973 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:42.057986 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1129-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:42.058009 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:42.058022 #14649] DEBUG -- : response-header: x-cache-hits => 4, 0
+D, [2017-09-23T03:22:42.058035 #14649] DEBUG -- : response-header: x-timer => S1506117162.696031,VS0,VE253
+D, [2017-09-23T03:22:42.058048 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:42.058123 #14649] DEBUG -- : Read 2111 bytes (2111 total)
+D, [2017-09-23T03:22:42.058160 #14649] DEBUG -- : Read 47 bytes (2158 total)
+D, [2017-09-23T03:22:42.058232 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:42.061679 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=3
+D, [2017-09-23T03:22:42.061749 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:42.061780 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:42.061879 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:42.061911 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:42.061927 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:42.061942 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:42.061958 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:42.420794 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:42.422525 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:42.422587 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:42.422609 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:42.422636 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:42.422651 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:42.422666 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:42.422687 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:42.422701 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:42.422720 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:42.422733 #14649] DEBUG -- : response-header: fastly-debug-digest => dfc5b9cc4ad40fdfdca79bf12739e542c8ba77a24e1c988968b51f2142a089a4
+D, [2017-09-23T03:22:42.423776 #14649] DEBUG -- : response-header: content-length => 2147
+D, [2017-09-23T03:22:42.423803 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:42.423819 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:42 GMT
+D, [2017-09-23T03:22:42.423832 #14649] DEBUG -- : response-header: age => 100
+D, [2017-09-23T03:22:42.423846 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:42.423860 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1145-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:42.423874 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:42.423888 #14649] DEBUG -- : response-header: x-cache-hits => 2, 0
+D, [2017-09-23T03:22:42.423922 #14649] DEBUG -- : response-header: x-timer => S1506117162.124573,VS0,VE265
+D, [2017-09-23T03:22:42.423938 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:42.424020 #14649] DEBUG -- : Read 2111 bytes (2111 total)
+D, [2017-09-23T03:22:42.424074 #14649] DEBUG -- : Read 36 bytes (2147 total)
+D, [2017-09-23T03:22:42.424134 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:42.427308 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=4
+D, [2017-09-23T03:22:42.427365 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:42.427385 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:42.427400 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:42.427414 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:42.427428 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:42.427449 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:42.427471 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:43.020290 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:43.020363 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:43.020388 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:43.020406 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:43.020427 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:43.020444 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:43.020471 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:43.020489 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:43.020505 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:43.020520 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:43.020536 #14649] DEBUG -- : response-header: fastly-debug-digest => f3f59ba5863722763b830951caebb6c40e347654eacf3af8a79ec719b0ef8c0b
+D, [2017-09-23T03:22:43.020552 #14649] DEBUG -- : response-header: content-length => 2156
+D, [2017-09-23T03:22:43.020586 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:43.020604 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:42 GMT
+D, [2017-09-23T03:22:43.020620 #14649] DEBUG -- : response-header: age => 65
+D, [2017-09-23T03:22:43.020635 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:43.020650 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1130-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:43.020666 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:43.020681 #14649] DEBUG -- : response-header: x-cache-hits => 3, 0
+D, [2017-09-23T03:22:43.020696 #14649] DEBUG -- : response-header: x-timer => S1506117162.491063,VS0,VE247
+D, [2017-09-23T03:22:43.020714 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:43.020799 #14649] DEBUG -- : Read 2112 bytes (2112 total)
+D, [2017-09-23T03:22:43.020853 #14649] DEBUG -- : Read 44 bytes (2156 total)
+D, [2017-09-23T03:22:43.020923 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:43.025995 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=5
+D, [2017-09-23T03:22:43.026061 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:43.026102 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:43.026124 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:43.026176 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:43.026193 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:43.026214 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:43.026230 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:43.193415 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:43.193497 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:43.193527 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:43.193548 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:43.193567 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:43.193587 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:43.193611 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:43.193632 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:43.193652 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:43.193672 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:43.193694 #14649] DEBUG -- : response-header: fastly-debug-digest => 01a12ad1844c7b4e68313fa5525f01f2e1b8f79af9b9f9e9090e74056a662dc9
+D, [2017-09-23T03:22:43.193713 #14649] DEBUG -- : response-header: content-length => 2158
+D, [2017-09-23T03:22:43.193732 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:43.193750 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:43 GMT
+D, [2017-09-23T03:22:43.193773 #14649] DEBUG -- : response-header: age => 933
+D, [2017-09-23T03:22:43.193792 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:43.193828 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1151-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:43.193848 #14649] DEBUG -- : response-header: x-cache => HIT, HIT
+D, [2017-09-23T03:22:43.193868 #14649] DEBUG -- : response-header: x-cache-hits => 2, 1
+D, [2017-09-23T03:22:43.193888 #14649] DEBUG -- : response-header: x-timer => S1506117163.091315,VS0,VE0
+D, [2017-09-23T03:22:43.193907 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:43.193995 #14649] DEBUG -- : Read 2114 bytes (2114 total)
+D, [2017-09-23T03:22:43.194052 #14649] DEBUG -- : Read 44 bytes (2158 total)
+D, [2017-09-23T03:22:43.194153 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:43.198053 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=6
+D, [2017-09-23T03:22:43.198120 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:43.198157 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:43.198174 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:43.198192 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:43.198206 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:43.198218 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:43.198230 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:43.605655 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:43.605753 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:43.605778 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:43.605797 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:43.605837 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:43.605865 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:43.605883 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:43.605900 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:43.605916 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:43.605932 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:43.605948 #14649] DEBUG -- : response-header: fastly-debug-digest => 53e2f3eca976ca8c0009e1ad21fdc9074ac31b79d6510f6b148096872cd9f81c
+D, [2017-09-23T03:22:43.605964 #14649] DEBUG -- : response-header: content-length => 426
+D, [2017-09-23T03:22:43.605979 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:43.606025 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:43 GMT
+D, [2017-09-23T03:22:43.606047 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:43.606063 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:43.606079 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1134-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:43.606095 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:43.606110 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:43.606126 #14649] DEBUG -- : response-header: x-timer => S1506117163.261640,VS0,VE314
+D, [2017-09-23T03:22:43.606141 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:43.606202 #14649] DEBUG -- : Read 426 bytes (426 total)
+D, [2017-09-23T03:22:43.606271 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:43.610221 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=7
+D, [2017-09-23T03:22:43.610277 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:43.610296 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:43.610315 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:43.610330 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:43.610344 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:43.610357 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:43.610371 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:43.757140 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:43.757210 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:43.757234 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:43.757253 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:43.757270 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:43.757287 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:43.757303 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:43.757320 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:43.757336 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:43.757352 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:43.757368 #14649] DEBUG -- : response-header: fastly-debug-digest => 36b34a46757fc111dc10790c5d068c4d54fada3d8d742852c129ded96556b6a6
+D, [2017-09-23T03:22:43.757385 #14649] DEBUG -- : response-header: content-length => 437
+D, [2017-09-23T03:22:43.757400 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:43.757438 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:43 GMT
+D, [2017-09-23T03:22:43.757456 #14649] DEBUG -- : response-header: age => 1337
+D, [2017-09-23T03:22:43.757472 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:43.757488 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1124-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:43.757504 #14649] DEBUG -- : response-header: x-cache => HIT, HIT
+D, [2017-09-23T03:22:43.757519 #14649] DEBUG -- : response-header: x-cache-hits => 3, 1
+D, [2017-09-23T03:22:43.757535 #14649] DEBUG -- : response-header: x-timer => S1506117164.673267,VS0,VE0
+D, [2017-09-23T03:22:43.757551 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:43.757633 #14649] DEBUG -- : Read 437 bytes (437 total)
+D, [2017-09-23T03:22:43.757706 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:43.761279 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=8
+D, [2017-09-23T03:22:43.761332 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:43.761351 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:43.761367 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:43.761389 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:43.761409 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:43.761423 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:43.761465 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:44.117827 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:44.118039 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:44.118316 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:44.118369 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:44.118405 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:44.118438 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:44.118471 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:44.118501 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:44.118529 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:44.118560 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:44.118588 #14649] DEBUG -- : response-header: fastly-debug-digest => 60238daa7cb1309b702271a4b92863fe7662d18b8cb08d5fc41bb79db942edb0
+D, [2017-09-23T03:22:44.118616 #14649] DEBUG -- : response-header: content-length => 438
+D, [2017-09-23T03:22:44.118645 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:44.118673 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:44 GMT
+D, [2017-09-23T03:22:44.118699 #14649] DEBUG -- : response-header: age => 57
+D, [2017-09-23T03:22:44.118725 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:44.118751 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1131-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:44.118777 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:44.118813 #14649] DEBUG -- : response-header: x-cache-hits => 2, 0
+D, [2017-09-23T03:22:44.118840 #14649] DEBUG -- : response-header: x-timer => S1506117164.825264,VS0,VE258
+D, [2017-09-23T03:22:44.118867 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:44.118997 #14649] DEBUG -- : Read 438 bytes (438 total)
+D, [2017-09-23T03:22:44.119118 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:44.121402 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=9
+D, [2017-09-23T03:22:44.121587 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:44.121621 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:44.121654 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:44.121677 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:44.121721 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:44.121755 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:44.121801 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:44.482186 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:44.482258 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:44.482283 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:44.482303 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:44.482320 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:44.482336 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:44.482356 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:44.482373 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:44.482389 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:44.482405 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:44.482421 #14649] DEBUG -- : response-header: fastly-debug-digest => 1a1d1e98e6526f71251ed5d89fc57ce120d8decdc42e5f675a47b2a01f3be1e7
+D, [2017-09-23T03:22:44.482437 #14649] DEBUG -- : response-header: content-length => 437
+D, [2017-09-23T03:22:44.482453 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:44.482468 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:44 GMT
+D, [2017-09-23T03:22:44.482484 #14649] DEBUG -- : response-header: age => 74
+D, [2017-09-23T03:22:44.482499 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:44.482515 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1140-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:44.482531 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:44.482547 #14649] DEBUG -- : response-header: x-cache-hits => 2, 0
+D, [2017-09-23T03:22:44.482562 #14649] DEBUG -- : response-header: x-timer => S1506117164.185705,VS0,VE266
+D, [2017-09-23T03:22:44.482578 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:44.482686 #14649] DEBUG -- : Read 437 bytes (437 total)
+D, [2017-09-23T03:22:44.482761 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:44.486696 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=10
+D, [2017-09-23T03:22:44.486753 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:44.486776 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:44.486792 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:44.486823 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:44.486838 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:44.486851 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:44.486865 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:44.850839 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:44.850979 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:44.851034 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:44.851053 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:44.851070 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:44.851087 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:44.851103 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:44.851119 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:44.851135 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:44.851151 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:44.851166 #14649] DEBUG -- : response-header: fastly-debug-digest => 063911e3747c265cbce02bbff52a8a7d4be025ecd962fa6bfe3cefdfe8ac0260
+D, [2017-09-23T03:22:44.851219 #14649] DEBUG -- : response-header: content-length => 440
+D, [2017-09-23T03:22:44.851235 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:44.851251 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:44 GMT
+D, [2017-09-23T03:22:44.851267 #14649] DEBUG -- : response-header: age => 195
+D, [2017-09-23T03:22:44.851281 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:44.851297 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1145-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:44.851313 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:44.851328 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:44.851344 #14649] DEBUG -- : response-header: x-timer => S1506117165.549507,VS0,VE270
+D, [2017-09-23T03:22:44.851359 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:44.851418 #14649] DEBUG -- : Read 440 bytes (440 total)
+D, [2017-09-23T03:22:44.851486 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:44.855467 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=11
+D, [2017-09-23T03:22:44.855526 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:44.855546 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:44.855562 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:44.855578 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:44.855592 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:44.855606 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:44.855621 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:45.221148 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:45.221308 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:45.221353 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:45.221384 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:45.221418 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:45.221450 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:45.221468 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:45.221485 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:45.221501 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:45.221525 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:45.221542 #14649] DEBUG -- : response-header: fastly-debug-digest => a81a7f24615cc6931f0b6d6d8b4d575c7b0796f8cfa87f45259506c4259a166f
+D, [2017-09-23T03:22:45.221581 #14649] DEBUG -- : response-header: content-length => 432
+D, [2017-09-23T03:22:45.221600 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:45.221630 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:45 GMT
+D, [2017-09-23T03:22:45.221646 #14649] DEBUG -- : response-header: age => 792
+D, [2017-09-23T03:22:45.221662 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:45.221678 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1121-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:45.221698 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:45.221714 #14649] DEBUG -- : response-header: x-cache-hits => 2, 0
+D, [2017-09-23T03:22:45.221730 #14649] DEBUG -- : response-header: x-timer => S1506117165.918452,VS0,VE270
+D, [2017-09-23T03:22:45.221745 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:45.221811 #14649] DEBUG -- : Read 432 bytes (432 total)
+D, [2017-09-23T03:22:45.221902 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:45.225197 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=12
+D, [2017-09-23T03:22:45.225253 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:45.225272 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:45.225295 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:45.225319 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:45.225334 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:45.225348 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:45.225380 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:45.594529 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:45.594611 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:45.594640 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:45.594676 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:45.594695 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:45.594726 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:45.594746 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:45.594764 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:45.594779 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:45.594796 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:45.594813 #14649] DEBUG -- : response-header: fastly-debug-digest => c7f92b2d0790c832a7557a2553d03877cfbcaabd2b1086102842711d1bc1a3f9
+D, [2017-09-23T03:22:45.594829 #14649] DEBUG -- : response-header: content-length => 436
+D, [2017-09-23T03:22:45.594845 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:45.594862 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:45 GMT
+D, [2017-09-23T03:22:45.594877 #14649] DEBUG -- : response-header: age => 57
+D, [2017-09-23T03:22:45.594893 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:45.594909 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1141-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:45.594926 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:45.594941 #14649] DEBUG -- : response-header: x-cache-hits => 8, 0
+D, [2017-09-23T03:22:45.594981 #14649] DEBUG -- : response-header: x-timer => S1506117165.290772,VS0,VE274
+D, [2017-09-23T03:22:45.595021 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:45.595087 #14649] DEBUG -- : Read 436 bytes (436 total)
+D, [2017-09-23T03:22:45.595157 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:45.597743 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=13
+D, [2017-09-23T03:22:45.597796 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:45.597815 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:45.597830 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:45.597845 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:45.597859 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:45.597878 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:45.597901 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:45.953162 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:45.953271 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:45.953295 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:45.953331 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:45.953349 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:45.953366 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:45.953383 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:45.953400 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:45.953416 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:45.953433 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:45.953449 #14649] DEBUG -- : response-header: fastly-debug-digest => cb6251a0c6a2084e828d24c493ff589307210da157d83e714a3f45e09bd900e8
+D, [2017-09-23T03:22:45.953465 #14649] DEBUG -- : response-header: content-length => 441
+D, [2017-09-23T03:22:45.953480 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:45.953497 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:45 GMT
+D, [2017-09-23T03:22:45.953512 #14649] DEBUG -- : response-header: age => 173
+D, [2017-09-23T03:22:45.953528 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:45.953544 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1136-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:45.953560 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:45.953576 #14649] DEBUG -- : response-header: x-cache-hits => 2, 0
+D, [2017-09-23T03:22:45.953604 #14649] DEBUG -- : response-header: x-timer => S1506117166.660359,VS0,VE262
+D, [2017-09-23T03:22:45.953620 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:45.953683 #14649] DEBUG -- : Read 441 bytes (441 total)
+D, [2017-09-23T03:22:45.953752 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:45.957769 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=14
+D, [2017-09-23T03:22:45.957826 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:45.957845 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:45.957873 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:45.957897 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:45.957919 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:45.957935 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:45.957966 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:46.314956 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:46.315045 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:46.315070 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:46.315089 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:46.315106 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:46.315123 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:46.315140 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:46.315183 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:46.315199 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:46.315216 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:46.315232 #14649] DEBUG -- : response-header: fastly-debug-digest => ce1e114e026318720e16959d9c0d5d0d31a013e51b9b4c56a8d858e0be847488
+D, [2017-09-23T03:22:46.315248 #14649] DEBUG -- : response-header: content-length => 410
+D, [2017-09-23T03:22:46.315264 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:46.315281 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:46 GMT
+D, [2017-09-23T03:22:46.315297 #14649] DEBUG -- : response-header: age => 487
+D, [2017-09-23T03:22:46.315312 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:46.315329 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1148-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:46.315345 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:46.315360 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:46.315376 #14649] DEBUG -- : response-header: x-timer => S1506117166.020828,VS0,VE264
+D, [2017-09-23T03:22:46.315392 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:46.315476 #14649] DEBUG -- : Read 410 bytes (410 total)
+D, [2017-09-23T03:22:46.315544 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:46.319392 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=15
+D, [2017-09-23T03:22:46.319445 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:46.319466 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:46.319482 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:46.319497 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:46.319511 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:46.319528 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:46.319549 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:46.698761 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:46.698892 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:46.698938 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:46.698958 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:46.698975 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:46.698991 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:46.699008 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:46.699025 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:46.699064 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:46.699084 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:46.699101 #14649] DEBUG -- : response-header: fastly-debug-digest => d709d493cfef0de10b7d8919017b4c3cb14409239e54da27ce7bbc334e6e73e1
+D, [2017-09-23T03:22:46.699117 #14649] DEBUG -- : response-header: content-length => 374
+D, [2017-09-23T03:22:46.699133 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:46.699187 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:46 GMT
+D, [2017-09-23T03:22:46.699204 #14649] DEBUG -- : response-header: age => 12
+D, [2017-09-23T03:22:46.699220 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:46.699235 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1125-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:46.699252 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:46.699267 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:46.699283 #14649] DEBUG -- : response-header: x-timer => S1506117166.382569,VS0,VE286
+D, [2017-09-23T03:22:46.699299 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:46.699357 #14649] DEBUG -- : Read 374 bytes (374 total)
+D, [2017-09-23T03:22:46.699467 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:46.705069 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=16
+D, [2017-09-23T03:22:46.705136 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:46.705161 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:46.705178 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:46.705193 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:46.705207 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:46.705222 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:46.705251 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:47.072676 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:47.072739 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:47.072763 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:47.072779 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:47.072794 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:47.072808 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:47.072822 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:47.072844 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:47.072857 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:47.072871 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:47.072885 #14649] DEBUG -- : response-header: fastly-debug-digest => 97812780cead6c00aa9aa31e4d9240f1aaa3368e0909789ba7e5bb751b29acf4
+D, [2017-09-23T03:22:47.072898 #14649] DEBUG -- : response-header: content-length => 396
+D, [2017-09-23T03:22:47.072911 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:47.072924 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:47 GMT
+D, [2017-09-23T03:22:47.072937 #14649] DEBUG -- : response-header: age => 283
+D, [2017-09-23T03:22:47.072949 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:47.072962 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1130-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:47.073000 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:47.073027 #14649] DEBUG -- : response-header: x-cache-hits => 2, 0
+D, [2017-09-23T03:22:47.073041 #14649] DEBUG -- : response-header: x-timer => S1506117167.767924,VS0,VE275
+D, [2017-09-23T03:22:47.073054 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:47.073105 #14649] DEBUG -- : Read 396 bytes (396 total)
+D, [2017-09-23T03:22:47.073178 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:47.077349 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=17
+D, [2017-09-23T03:22:47.077405 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:47.077423 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:47.077438 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:47.077452 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:47.077578 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:47.077608 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:47.077636 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:47.438692 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:47.438768 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:47.438791 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:47.438807 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:47.438821 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:47.438835 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:47.438849 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:47.438872 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:47.438886 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:47.438900 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:47.438913 #14649] DEBUG -- : response-header: fastly-debug-digest => 3b3194bb85e9cb81643cce8d9b129cb8e865b80e4c173d89031cba28768e3f18
+D, [2017-09-23T03:22:47.438926 #14649] DEBUG -- : response-header: content-length => 415
+D, [2017-09-23T03:22:47.438938 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:47.438951 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:47 GMT
+D, [2017-09-23T03:22:47.438963 #14649] DEBUG -- : response-header: age => 1139
+D, [2017-09-23T03:22:47.438976 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:47.438988 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1135-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:47.439006 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:47.439019 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:47.439032 #14649] DEBUG -- : response-header: x-timer => S1506117167.140861,VS0,VE268
+D, [2017-09-23T03:22:47.439044 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:47.439103 #14649] DEBUG -- : Read 415 bytes (415 total)
+D, [2017-09-23T03:22:47.439171 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:47.442942 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=18
+D, [2017-09-23T03:22:47.443006 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:47.443026 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:47.443042 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:47.443077 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:47.443203 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:47.443376 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:47.443400 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:47.808096 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:47.808179 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:47.808226 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:47.808243 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:47.808257 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:47.808271 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:47.808284 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:47.808299 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:47.808317 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:47.808340 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:47.808356 #14649] DEBUG -- : response-header: fastly-debug-digest => 5c60fbc907c6edb2162f16d82bb97e242826d1c61295cb8a291a86521d599d12
+D, [2017-09-23T03:22:47.808369 #14649] DEBUG -- : response-header: content-length => 378
+D, [2017-09-23T03:22:47.808382 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:47.808400 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:47 GMT
+D, [2017-09-23T03:22:47.808414 #14649] DEBUG -- : response-header: age => 868
+D, [2017-09-23T03:22:47.808427 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:47.808441 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1138-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:47.808454 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:47.808467 #14649] DEBUG -- : response-header: x-cache-hits => 2, 0
+D, [2017-09-23T03:22:47.808485 #14649] DEBUG -- : response-header: x-timer => S1506117168.507860,VS0,VE270
+D, [2017-09-23T03:22:47.808498 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:47.808559 #14649] DEBUG -- : Read 378 bytes (378 total)
+D, [2017-09-23T03:22:47.808633 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:47.812403 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=19
+D, [2017-09-23T03:22:47.812459 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:47.812486 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:47.812503 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:47.812517 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:47.812530 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:47.812546 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:47.812581 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:48.170714 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:48.170775 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:48.170795 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:48.170810 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:48.170832 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:48.170866 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:48.170882 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:48.170896 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:48.170909 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:48.170923 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:48.170940 #14649] DEBUG -- : response-header: fastly-debug-digest => 2e83eb0dad574f43cefd65104b751d754a9533572000531c3acd803ce6e95935
+D, [2017-09-23T03:22:48.170954 #14649] DEBUG -- : response-header: content-length => 371
+D, [2017-09-23T03:22:48.170967 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:48.170983 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:48 GMT
+D, [2017-09-23T03:22:48.170996 #14649] DEBUG -- : response-header: age => 5
+D, [2017-09-23T03:22:48.171012 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:48.171025 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1148-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:48.171038 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:48.171054 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:48.171068 #14649] DEBUG -- : response-header: x-timer => S1506117168.876791,VS0,VE263
+D, [2017-09-23T03:22:48.171085 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:48.171135 #14649] DEBUG -- : Read 371 bytes (371 total)
+D, [2017-09-23T03:22:48.171202 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:48.175298 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=20
+D, [2017-09-23T03:22:48.175360 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:48.175379 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:48.175395 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:48.175409 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:48.175423 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:48.175437 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:48.175450 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:48.536532 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:48.536665 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:48.536690 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:48.536709 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:48.536726 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:48.536747 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:48.536764 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:48.536780 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:48.536795 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:48.536812 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:48.536827 #14649] DEBUG -- : response-header: fastly-debug-digest => 6f2d0f91e9d37d198bd197cddc59df3d6651ea77b205ff5fce9545ea2e545b1b
+D, [2017-09-23T03:22:48.536843 #14649] DEBUG -- : response-header: content-length => 372
+D, [2017-09-23T03:22:48.536858 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:48.536878 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:48 GMT
+D, [2017-09-23T03:22:48.536917 #14649] DEBUG -- : response-header: age => 1053
+D, [2017-09-23T03:22:48.536935 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:48.536960 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1131-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:48.536976 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:48.536991 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:48.537006 #14649] DEBUG -- : response-header: x-timer => S1506117168.238580,VS0,VE268
+D, [2017-09-23T03:22:48.537022 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:48.537084 #14649] DEBUG -- : Read 372 bytes (372 total)
+D, [2017-09-23T03:22:48.537152 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:48.541494 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=21
+D, [2017-09-23T03:22:48.541552 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:48.541571 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:48.541587 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:48.541601 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:48.541624 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:48.541643 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:48.541657 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:48.888308 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:48.888381 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:48.888405 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:48.888424 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:48.888441 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:48.888458 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:48.888495 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:48.888513 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:48.888529 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:48.888546 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:48.888562 #14649] DEBUG -- : response-header: fastly-debug-digest => 73f4f659f17e9d0008aa2ebd5477ac9bccba95229c4de546f4b4d39e8c29d3bd
+D, [2017-09-23T03:22:48.888578 #14649] DEBUG -- : response-header: content-length => 381
+D, [2017-09-23T03:22:48.888594 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:48.888609 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:48 GMT
+D, [2017-09-23T03:22:48.888625 #14649] DEBUG -- : response-header: age => 1
+D, [2017-09-23T03:22:48.888641 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:48.888656 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1129-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:48.888673 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:48.888698 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:48.888714 #14649] DEBUG -- : response-header: x-timer => S1506117169.604864,VS0,VE252
+D, [2017-09-23T03:22:48.888730 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:48.888785 #14649] DEBUG -- : Read 381 bytes (381 total)
+D, [2017-09-23T03:22:48.888981 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:48.891854 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=22
+D, [2017-09-23T03:22:48.891928 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:48.891949 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:48.892001 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:48.892031 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:48.892063 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:48.892079 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:48.892094 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:49.262208 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:49.262281 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:49.262306 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:49.262325 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:49.262362 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:49.262380 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:49.262396 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:49.262412 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:49.262428 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:49.262445 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:49.262461 #14649] DEBUG -- : response-header: fastly-debug-digest => 95612ca5fb242ec268d3ffa9c401d32c1a8e7a3a2bac43c0c23c3e138704edc7
+D, [2017-09-23T03:22:49.262477 #14649] DEBUG -- : response-header: content-length => 372
+D, [2017-09-23T03:22:49.262493 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:49.262509 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:49 GMT
+D, [2017-09-23T03:22:49.262524 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:49.262540 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:49.262565 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1129-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:49.262582 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:49.262598 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:49.262614 #14649] DEBUG -- : response-header: x-timer => S1506117169.954861,VS0,VE276
+D, [2017-09-23T03:22:49.262629 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:49.262849 #14649] DEBUG -- : Read 372 bytes (372 total)
+D, [2017-09-23T03:22:49.262942 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:49.265991 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=23
+D, [2017-09-23T03:22:49.266060 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:49.266080 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:49.266102 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:49.266120 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:49.266151 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:49.266168 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:49.266182 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:49.689524 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:49.689612 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:49.689675 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:49.689698 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:49.689730 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:49.689745 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:49.689759 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:49.689772 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:49.689799 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:49.689811 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:49.689824 #14649] DEBUG -- : response-header: fastly-debug-digest => 4b62c5a5e0065b25ed4126f95ece957ac1fe99514564cb5a1365ef638a85ff18
+D, [2017-09-23T03:22:49.689836 #14649] DEBUG -- : response-header: content-length => 382
+D, [2017-09-23T03:22:49.689849 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:49.689861 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:49 GMT
+D, [2017-09-23T03:22:49.689880 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:49.689892 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:49.689905 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1149-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:49.689917 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:49.689929 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:49.689941 #14649] DEBUG -- : response-header: x-timer => S1506117169.329061,VS0,VE309
+D, [2017-09-23T03:22:49.690050 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:49.690113 #14649] DEBUG -- : Read 382 bytes (382 total)
+D, [2017-09-23T03:22:49.690187 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:49.693352 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=24
+D, [2017-09-23T03:22:49.693408 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:49.693427 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:49.693451 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:49.693473 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:49.693488 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:49.693502 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:49.693537 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:50.076811 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:50.076897 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:50.076934 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:50.076959 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:50.076982 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:50.077005 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:50.077028 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:50.077053 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:50.077241 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:50.077280 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:50.077306 #14649] DEBUG -- : response-header: fastly-debug-digest => a9dc1f4fe4a501b8e2566710a0ceaf1bad21a0a42c4fc5762f3d2c0f24ed1141
+D, [2017-09-23T03:22:50.077345 #14649] DEBUG -- : response-header: content-length => 373
+D, [2017-09-23T03:22:50.077372 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:50.077396 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:50 GMT
+D, [2017-09-23T03:22:50.077420 #14649] DEBUG -- : response-header: age => 258
+D, [2017-09-23T03:22:50.077441 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:50.077455 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1146-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:50.077468 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:50.077481 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:50.077493 #14649] DEBUG -- : response-header: x-timer => S1506117170.756440,VS0,VE272
+D, [2017-09-23T03:22:50.077506 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:50.077565 #14649] DEBUG -- : Read 373 bytes (373 total)
+D, [2017-09-23T03:22:50.077647 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:50.079982 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=25
+D, [2017-09-23T03:22:50.080059 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:50.080093 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:50.080120 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:50.080156 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:50.080179 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:50.080201 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:50.080223 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:50.503041 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:50.503104 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:50.503154 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:50.503179 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:50.503203 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:50.503227 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:50.503251 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:50.503274 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:50.503296 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:50.503318 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:50.503532 #14649] DEBUG -- : response-header: fastly-debug-digest => 7940108d4bcc9f3886e1479bd576184b5d1162c1bdd007732fa7f3102605ecff
+D, [2017-09-23T03:22:50.503561 #14649] DEBUG -- : response-header: content-length => 405
+D, [2017-09-23T03:22:50.503594 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:50.503615 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:50 GMT
+D, [2017-09-23T03:22:50.503635 #14649] DEBUG -- : response-header: age => 145
+D, [2017-09-23T03:22:50.503656 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:50.503680 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1125-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:50.503699 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:50.503713 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:50.503727 #14649] DEBUG -- : response-header: x-timer => S1506117170.186915,VS0,VE264
+D, [2017-09-23T03:22:50.503740 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:50.503816 #14649] DEBUG -- : Read 405 bytes (405 total)
+D, [2017-09-23T03:22:50.503879 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:50.506006 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=26
+D, [2017-09-23T03:22:50.506061 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:50.506081 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:50.506096 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:50.506156 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:50.506181 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:50.506195 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:50.506222 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:50.861014 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:50.861080 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:50.861099 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:50.861113 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:50.861125 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:50.861137 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:50.861149 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:50.861161 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:50.861397 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:50.861428 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:50.861452 #14649] DEBUG -- : response-header: fastly-debug-digest => 19032fef966c48a1a0089078aa389b3275e0ea4972268733fa7724ecf9ae20e7
+D, [2017-09-23T03:22:50.861473 #14649] DEBUG -- : response-header: content-length => 384
+D, [2017-09-23T03:22:50.861493 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:50.861514 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:50 GMT
+D, [2017-09-23T03:22:50.861533 #14649] DEBUG -- : response-header: age => 134
+D, [2017-09-23T03:22:50.861552 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:50.861572 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1122-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:50.861592 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:50.861612 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:50.861632 #14649] DEBUG -- : response-header: x-timer => S1506117171.577543,VS0,VE254
+D, [2017-09-23T03:22:50.861652 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:50.861721 #14649] DEBUG -- : Read 384 bytes (384 total)
+D, [2017-09-23T03:22:50.861802 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:50.864002 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=27
+D, [2017-09-23T03:22:50.864057 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:50.864083 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:50.864107 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:50.864129 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:50.864149 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:50.864168 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:50.864202 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:51.270331 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:51.270406 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:51.270441 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:51.270465 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:51.270483 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:51.270499 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:51.270516 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:51.270533 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:51.270548 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:51.270565 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:51.270581 #14649] DEBUG -- : response-header: fastly-debug-digest => 90cc8ea9a91d14be3391dc867db8257191c2351fd824891c80e7a58a5947aab0
+D, [2017-09-23T03:22:51.270597 #14649] DEBUG -- : response-header: content-length => 378
+D, [2017-09-23T03:22:51.270612 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:51.270628 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:51 GMT
+D, [2017-09-23T03:22:51.270644 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:51.270659 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:51.270675 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1150-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:51.270691 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:51.270706 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:51.270721 #14649] DEBUG -- : response-header: x-timer => S1506117171.926850,VS0,VE313
+D, [2017-09-23T03:22:51.270737 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:51.270818 #14649] DEBUG -- : Read 378 bytes (378 total)
+D, [2017-09-23T03:22:51.270885 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:51.273469 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=28
+D, [2017-09-23T03:22:51.273546 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:51.273581 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:51.273612 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:51.273652 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:51.273674 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:51.273696 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:51.273759 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:51.669332 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:51.669408 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:51.669439 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:51.669459 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:51.669520 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:51.669548 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:51.669575 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:51.669602 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:51.669640 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:51.669672 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:51.669689 #14649] DEBUG -- : response-header: fastly-debug-digest => 0531da038444e8e7fe9b16c5798fda41dc0ee0c02ab3f5dc95f1133816d93954
+D, [2017-09-23T03:22:51.669746 #14649] DEBUG -- : response-header: content-length => 379
+D, [2017-09-23T03:22:51.669761 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:51.669774 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:51 GMT
+D, [2017-09-23T03:22:51.669787 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:51.669799 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:51.669812 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1149-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:51.669826 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:51.669838 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:51.669852 #14649] DEBUG -- : response-header: x-timer => S1506117171.336471,VS0,VE302
+D, [2017-09-23T03:22:51.669865 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:51.669915 #14649] DEBUG -- : Read 379 bytes (379 total)
+D, [2017-09-23T03:22:51.669996 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:51.672008 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=29
+D, [2017-09-23T03:22:51.672060 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:51.672079 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:51.672095 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:51.672109 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:51.672123 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:51.672138 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:51.672152 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:52.079550 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:52.079608 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:52.079629 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:52.079645 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:52.079659 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:52.079688 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:52.079703 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:52.079716 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:52.079728 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:52.079745 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:52.079758 #14649] DEBUG -- : response-header: fastly-debug-digest => bff78956286173f838d422b277a07f3ac2e77734cf5ce268a10fa5c7fc03b813
+D, [2017-09-23T03:22:52.079778 #14649] DEBUG -- : response-header: content-length => 377
+D, [2017-09-23T03:22:52.079791 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:52.079804 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:52 GMT
+D, [2017-09-23T03:22:52.079817 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:52.079829 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:52.079841 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1130-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:52.079857 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:52.079881 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:52.079895 #14649] DEBUG -- : response-header: x-timer => S1506117172.734919,VS0,VE313
+D, [2017-09-23T03:22:52.079908 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:52.079976 #14649] DEBUG -- : Read 377 bytes (377 total)
+D, [2017-09-23T03:22:52.080037 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:52.081699 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=30
+D, [2017-09-23T03:22:52.081745 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:52.081765 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:52.081780 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:52.081795 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:52.081809 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:52.081824 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:52.081838 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:52.576143 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:52.576220 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:52.576251 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:52.576268 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:52.576282 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:52.576295 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:52.576308 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:52.576321 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:52.576349 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:52.576363 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:52.576375 #14649] DEBUG -- : response-header: fastly-debug-digest => cabada7c62c02f80d0f9b48fd38453e2a001c59bbbfb0200894a588b3fbf37a4
+D, [2017-09-23T03:22:52.576388 #14649] DEBUG -- : response-header: content-length => 381
+D, [2017-09-23T03:22:52.576400 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:52.576412 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:52 GMT
+D, [2017-09-23T03:22:52.576424 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:52.576436 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:52.576449 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1146-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:52.576462 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:52.576479 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:52.576499 #14649] DEBUG -- : response-header: x-timer => S1506117172.145174,VS0,VE308
+D, [2017-09-23T03:22:52.576519 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:52.576571 #14649] DEBUG -- : Read 381 bytes (381 total)
+D, [2017-09-23T03:22:52.576669 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:52.578909 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=31
+D, [2017-09-23T03:22:52.578969 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:52.578986 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:52.579001 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:52.579015 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:52.579039 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:52.579054 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:52.579067 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:54.090092 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:54.090195 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:54.090218 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:54.090234 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:54.090248 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:54.090262 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:54.090279 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:54.090294 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:54.090328 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:54.090349 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:54.090363 #14649] DEBUG -- : response-header: fastly-debug-digest => a330d3f9a27c14d4a0cc47e32524bc3e6c1951c8a98607359c22a5fd7b649a4d
+D, [2017-09-23T03:22:54.090376 #14649] DEBUG -- : response-header: content-length => 376
+D, [2017-09-23T03:22:54.090388 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:54.090401 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:52 GMT
+D, [2017-09-23T03:22:54.090423 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:54.090436 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:54.090449 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1141-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:54.090462 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:54.090474 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:54.090487 #14649] DEBUG -- : response-header: x-timer => S1506117173.641968,VS0,VE315
+D, [2017-09-23T03:22:54.090499 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:54.090603 #14649] DEBUG -- : Read 376 bytes (376 total)
+D, [2017-09-23T03:22:54.090704 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:54.092592 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=32
+D, [2017-09-23T03:22:54.092643 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:54.092661 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:54.092676 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:54.092691 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:54.092704 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:54.092719 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:54.092742 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:54.718057 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:54.718135 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:54.718162 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:54.718185 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:54.718206 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:54.718308 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:54.718336 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:54.718352 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:54.718366 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:54.718378 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:54.718392 #14649] DEBUG -- : response-header: fastly-debug-digest => 001e5f664df34527d1d625d06f2fa603bf990144be1ceb06694d4297873a26db
+D, [2017-09-23T03:22:54.718404 #14649] DEBUG -- : response-header: content-length => 370
+D, [2017-09-23T03:22:54.718465 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:54.718486 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:54 GMT
+D, [2017-09-23T03:22:54.718500 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:54.718512 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:54.718524 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1146-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:54.718535 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:54.718546 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:54.718557 #14649] DEBUG -- : response-header: x-timer => S1506117174.155864,VS0,VE310
+D, [2017-09-23T03:22:54.718567 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:54.718646 #14649] DEBUG -- : Read 370 bytes (370 total)
+D, [2017-09-23T03:22:54.718702 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:54.720746 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=33
+D, [2017-09-23T03:22:54.720802 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:54.720826 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:54.720847 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:54.720868 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:54.720900 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:54.720919 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:54.720938 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:55.275879 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:55.275930 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:55.275949 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:55.275994 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:55.276024 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:55.276039 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:55.276066 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:55.276080 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:55.276091 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:55.276103 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:55.276114 #14649] DEBUG -- : response-header: fastly-debug-digest => 9396ff441f94f4eb95a53ce77d002ff7c13003e4e37531c1c07d746e85f6a44c
+D, [2017-09-23T03:22:55.276125 #14649] DEBUG -- : response-header: content-length => 378
+D, [2017-09-23T03:22:55.276137 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:55.276149 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:55 GMT
+D, [2017-09-23T03:22:55.276174 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:55.276187 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:55.276211 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1122-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:55.276223 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:55.276234 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:55.276245 #14649] DEBUG -- : response-header: x-timer => S1506117175.783720,VS0,VE313
+D, [2017-09-23T03:22:55.276256 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:55.276304 #14649] DEBUG -- : Read 378 bytes (378 total)
+D, [2017-09-23T03:22:55.276372 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:55.278864 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=34
+D, [2017-09-23T03:22:55.278918 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:55.278934 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:55.278948 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:55.278961 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:55.278974 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:55.278986 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:55.278998 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:55.909786 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:55.909846 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:55.909865 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:55.909879 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:55.909891 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:55.909903 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:55.909916 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:55.909928 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:55.909940 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:55.909970 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:55.909986 #14649] DEBUG -- : response-header: fastly-debug-digest => 8447a472e5c7784188e3047c1e6aff01bcaeec2b1e92024dc2700d8902b2fef0
+D, [2017-09-23T03:22:55.910027 #14649] DEBUG -- : response-header: content-length => 385
+D, [2017-09-23T03:22:55.910045 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:55.910066 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:55 GMT
+D, [2017-09-23T03:22:55.910104 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:55.910132 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:55.910148 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1144-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:55.910162 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:55.910175 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:55.910189 #14649] DEBUG -- : response-header: x-timer => S1506117175.342096,VS0,VE307
+D, [2017-09-23T03:22:55.910201 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:55.910278 #14649] DEBUG -- : Read 385 bytes (385 total)
+D, [2017-09-23T03:22:55.910376 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:55.913207 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=35
+D, [2017-09-23T03:22:55.913262 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:55.913294 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:55.913319 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:55.913335 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:55.913370 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:55.913390 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:55.913440 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:56.560274 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:56.560328 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:56.560346 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:56.560368 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:56.560381 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:56.560393 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:56.560405 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:56.560418 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:56.560431 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:56.560446 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:56.560457 #14649] DEBUG -- : response-header: fastly-debug-digest => 2916e247c99979a9c1cb02d8c3e5240e410eaa634fc37ebf3ff347466089cbc2
+D, [2017-09-23T03:22:56.560476 #14649] DEBUG -- : response-header: content-length => 374
+D, [2017-09-23T03:22:56.560496 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:56.560509 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:56 GMT
+D, [2017-09-23T03:22:56.560524 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:56.560535 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:56.560551 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1127-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:56.560562 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:56.560573 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:56.560589 #14649] DEBUG -- : response-header: x-timer => S1506117176.976484,VS0,VE318
+D, [2017-09-23T03:22:56.560600 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:56.560656 #14649] DEBUG -- : Read 374 bytes (374 total)
+D, [2017-09-23T03:22:56.560709 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:56.562495 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=36
+D, [2017-09-23T03:22:56.562553 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:56.562570 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:56.562583 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:56.562596 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:56.562644 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:56.562691 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:56.562711 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:56.991579 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:56.991645 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:56.991693 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:56.991710 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:56.991723 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:56.991749 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:56.991801 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:56.991824 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:56.991838 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:56.991852 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:56.991873 #14649] DEBUG -- : response-header: fastly-debug-digest => 7f12b0f1f4f6d96b21d9bc3da7e5d9a65d000626693e49d78b7a39653c98ce64
+D, [2017-09-23T03:22:56.991887 #14649] DEBUG -- : response-header: content-length => 381
+D, [2017-09-23T03:22:56.991899 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:56.991911 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:56 GMT
+D, [2017-09-23T03:22:56.991923 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:56.991935 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:56.991947 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1137-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:56.991960 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:56.991981 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:56.991993 #14649] DEBUG -- : response-header: x-timer => S1506117177.625275,VS0,VE291
+D, [2017-09-23T03:22:56.992005 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:56.992055 #14649] DEBUG -- : Read 381 bytes (381 total)
+D, [2017-09-23T03:22:56.992127 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:56.994233 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=37
+D, [2017-09-23T03:22:56.994310 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:56.994330 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:56.994346 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:56.994367 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:56.994387 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:56.994410 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:56.994446 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:57.367563 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:57.367628 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:57.367647 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:57.367664 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:57.367676 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:57.367688 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:57.367714 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:57.367726 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:57.367737 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:57.367749 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:57.367789 #14649] DEBUG -- : response-header: fastly-debug-digest => f5928c7b12116f49ecbdf649cc7b21a75627ec37dc4fdfb79014bbea0ae2ae11
+D, [2017-09-23T03:22:57.367810 #14649] DEBUG -- : response-header: content-length => 377
+D, [2017-09-23T03:22:57.367822 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:57.367834 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:57 GMT
+D, [2017-09-23T03:22:57.367845 #14649] DEBUG -- : response-header: age => 450
+D, [2017-09-23T03:22:57.367855 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:57.367885 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1134-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:57.367897 #14649] DEBUG -- : response-header: x-cache => HIT, MISS
+D, [2017-09-23T03:22:57.367908 #14649] DEBUG -- : response-header: x-cache-hits => 1, 0
+D, [2017-09-23T03:22:57.367919 #14649] DEBUG -- : response-header: x-timer => S1506117177.059143,VS0,VE278
+D, [2017-09-23T03:22:57.367930 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:57.367973 #14649] DEBUG -- : Read 377 bytes (377 total)
+D, [2017-09-23T03:22:57.368033 #14649] DEBUG -- : gzip response
+I, [2017-09-23T03:22:57.370412 #14649]  INFO -- : Net::HTTP::Get: /drf/fixtures/?event=38
+D, [2017-09-23T03:22:57.370468 #14649] DEBUG -- : request-header: accept-encoding => gzip,deflate,identity
+D, [2017-09-23T03:22:57.370484 #14649] DEBUG -- : request-header: accept => */*
+D, [2017-09-23T03:22:57.370502 #14649] DEBUG -- : request-header: user-agent => Mechanize/2.7.5 Ruby/2.4.1p111 (http://github.com/sparklemotion/mechanize/)
+D, [2017-09-23T03:22:57.370515 #14649] DEBUG -- : request-header: accept-charset => ISO-8859-1,utf-8;q=0.7,*;q=0.7
+D, [2017-09-23T03:22:57.370527 #14649] DEBUG -- : request-header: accept-language => en-us,en;q=0.5
+D, [2017-09-23T03:22:57.370538 #14649] DEBUG -- : request-header: cookie => csrftoken=XChRnbqNfDJzzGz94CMBMmucDxlwUjmj; sessionid=eyJnYW1lX2NvZGUiOiJwbGZwbCJ9:1dvVsC:VdOmKQfhkrsj-DK3DHmq-c29faQ
+D, [2017-09-23T03:22:57.370550 #14649] DEBUG -- : request-header: host => fantasy.premierleague.com
+I, [2017-09-23T03:22:57.763292 #14649]  INFO -- : status: Net::HTTPOK 1.1 200 OK
+D, [2017-09-23T03:22:57.763350 #14649] DEBUG -- : response-header: server => nginx
+D, [2017-09-23T03:22:57.763370 #14649] DEBUG -- : response-header: content-type => application/json
+D, [2017-09-23T03:22:57.763385 #14649] DEBUG -- : response-header: content-language => plfplen
+D, [2017-09-23T03:22:57.763398 #14649] DEBUG -- : response-header: edge-control => max-age=60
+D, [2017-09-23T03:22:57.763410 #14649] DEBUG -- : response-header: allow => GET, HEAD, OPTIONS
+D, [2017-09-23T03:22:57.763422 #14649] DEBUG -- : response-header: cache-control => no-cache, no-store, must-revalidate, max-age=0
+D, [2017-09-23T03:22:57.763435 #14649] DEBUG -- : response-header: x-frame-options => DENY
+D, [2017-09-23T03:22:57.763446 #14649] DEBUG -- : response-header: content-encoding => gzip
+D, [2017-09-23T03:22:57.763459 #14649] DEBUG -- : response-header: via => 1.1 varnish, 1.1 varnish
+D, [2017-09-23T03:22:57.763471 #14649] DEBUG -- : response-header: fastly-debug-digest => 8390386702ff83ce80ec12e7c8a01c99df4b4ca70dde23200c937ae27647c9f4
+D, [2017-09-23T03:22:57.763483 #14649] DEBUG -- : response-header: content-length => 380
+D, [2017-09-23T03:22:57.763495 #14649] DEBUG -- : response-header: accept-ranges => bytes
+D, [2017-09-23T03:22:57.763508 #14649] DEBUG -- : response-header: date => Fri, 22 Sep 2017 21:52:57 GMT
+D, [2017-09-23T03:22:57.763528 #14649] DEBUG -- : response-header: age => 0
+D, [2017-09-23T03:22:57.763541 #14649] DEBUG -- : response-header: connection => keep-alive
+D, [2017-09-23T03:22:57.763553 #14649] DEBUG -- : response-header: x-served-by => cache-lcy1121-LCY, cache-hkg17931-HKG
+D, [2017-09-23T03:22:57.763567 #14649] DEBUG -- : response-header: x-cache => MISS, MISS
+D, [2017-09-23T03:22:57.763587 #14649] DEBUG -- : response-header: x-cache-hits => 0, 0
+D, [2017-09-23T03:22:57.763608 #14649] DEBUG -- : response-header: x-timer => S1506117177.433370,VS0,VE300
+D, [2017-09-23T03:22:57.763629 #14649] DEBUG -- : response-header: vary => Accept-Encoding
+D, [2017-09-23T03:22:57.763713 #14649] DEBUG -- : Read 380 bytes (380 total)
+D, [2017-09-23T03:22:57.763801 #14649] DEBUG -- : gzip response
